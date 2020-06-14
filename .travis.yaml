@@ -7,8 +7,6 @@ env:
   global:
     # change the registry name and username/password to yourself's.
     - DOCKER_HUB=succw
-    - DOCKER_PASSWORD=1q2w3e4r
-    - ALI_PASSWORD=1q2w3e4r
     - ALI_REGISTRY=registry.cn-hangzhou.aliyuncs.com/succw
 
 before_script:
